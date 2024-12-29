@@ -4,7 +4,7 @@
 int main()
 {   int v=0,c=0,l=0,w=0;
 	char Name[8000];
-    printf("Feel free to enter your thoughts:");
+    printf("Feel free to Enter your thoughts:");
     scanf("%[^\n]%*c",&Name); //Input Statement gets() can be used too
     for(int i=0; i<strlen(Name); i++){
 
